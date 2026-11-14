@@ -4,7 +4,7 @@ Small windows recovery environment and NTFS disk checker system in 98 MB. Target
 Since Microsoft does not allow redistribution of RE images, the final product has to be cooked on your own PC. git clone this repo, go to the cooking directory and run the numbered scripts in that order if you want more hands-on approach, or the run-it-all script. 
 This will download bootloader files and original wim image from the Web Archive, unpack the image, strip it down, add some custom scripts and pack again what is left in a 92 MB wim image, which will be put together with the boot files in the "disk_layout" directory. Note that i deliberately did not make a script to copy anything to your ESP - this task is left to you. Just copy everything in "disk_layout" to your EFI partition along the existing files there. You may already have a Microsoft and Boot folders there - backup before replacing. Replacing the Microsoft folder should be safe since you do not have windows anymore and the original files there take a lot of space.
 
-An important dependency is https://wimlib.net/ which will be used for image extraction and packaging on linux. On an arch based system: `sudo pacman -S wimlib`. You also need about 900 MB of disk space (207 MB wim is extracted to about 700 MB in a temporary directory).
+An important dependency is https://wimlib.net/ which will be used for image extraction and packaging on linux. On an arch based system: `sudo pacman -S wimlib`. You also need about 1.4 GB of disk space (207 MB wim is extracted to about 1200 MB in a temporary directory).
 
 Below are some screenshots:
 
