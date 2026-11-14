@@ -1,8 +1,10 @@
-In case you want to remix the image, after chaning what you want, you will need the scripts i used to make a diff between the original image from Microsoft and yours. Here are the scripts i used to generate the files_to_delete and slim the image:
+In case you want to remix the image, after chaning what you want, you will need the scripts i used to make a diff between 
+the original image from Microsoft and yours. Here are the scripts i used to generate the files_to_delete and slim the image:
 
 ./generate_list.sh ./full ./slim files_to_delete
 
-After generating the list, you slim the image accouding to it before repackaging (so that directories full and slim become identical)
+After generating the list, you slim the image accouding to it before repackaging 
+(so that directories full and slim become identical)
 
 ./clean_dir.sh files_to_delete ./full
 
@@ -10,4 +12,5 @@ Or, to remove the lot of now empty directories
 
 ./clean_dir_emptydir.sh files_to_delete ./full
 
-Note: the wim images will almost never be byte or hash identical, since Microsoft, in its infinite wisdom, made the format so that the metadata about the generation dir and total file size etc. are inside the image and thus change it.
+Note: the wim images will almost never be byte or hash identical, since Microsoft, in its infinite wisdom, 
+made the format so that the metadata about the generation dir and total file size etc. are inside the image and thus change it.
