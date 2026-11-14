@@ -1,0 +1,9 @@
+
+KBD Layout here is EN-US and cannot be changed, change with "kbd"
+open new cmd window with "start cmd" to use another layout.
+
+Closing THIS last terminal window in any way, including X button
+or typing "exit" will immediately reboot the system
+without confirmation! Close everything else first, flush cache
+and unmount all usb dives, if any. Make sure chdsk has finished.
+You have been warned!

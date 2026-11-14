@@ -1,0 +1,29 @@
+Since this recovery environment has limited number of drivers and you may not have mouse support
+(a wired usb mouse will probably work, a touchpad won't), here is some info about key combinations:
+
+Alt+Tab switches between open windows (you can leave this window open for a quick reference for example
+and then Alt+tab to go back to the main launcher menu to launch something else).
+If there are too many windows - Alt+F4 or Alt+Spacebar,c closes a window.
+
+Alt+Spacebar opens the window menu - there you can maximize or close a window. The menu is very important
+in command prompt windows. From there you can change the mode to mark, copy and paste, and also to
+scroll back the terminal output to read it (ESC to exit the scroll mode), if it has become more than 
+one screen (for example chkdsk output). From the properties you can also change the font size.
+
+Alt+F opens the first menu in a program (the only GUI program left is actually notepad). 
+From there navigate with arrows. If a menu item ends with an 8, that means it has a submenu that opens 
+with right arrow.
+Shift+F10 on a selected item opens the context menu. Backspace goes a directory up in the directory tree
+in the open dialog. Actually, through the Notepad open dialog you have a primitive gui file manager. Note
+that if you copy or paste file with CTRL+C, CTRL+V the folder contents does not refresh automatically,
+until you go out and in again. As said, very primitive. Can still be very useful to copy files with 
+nonlatin characters in the name, since you cannot do it in the command line. Alternatively, use robocopy
+from the command line on the parent folder, this also works.
+
+Dialogs of programs - open file or save file, properties: 
+Move  between areas with Tab or Shift+tab, within areas with the arrows, toggle or select with the 
+spacebar, hit enter to click the OK or Cancel button when focused. ESC also cancels.
+Holding Alt underlines a letter in the options of the forms, hitting the letter selects the option.
+
+This help page is deliberately opened in a new window, you can close it to return to menu or just
+leave it open for future reference and return to menu with Alt+tab.
