@@ -6,7 +6,7 @@ This will download bootloader files and original wim image from the Web Archive 
 
 An important dependency is https://wimlib.net/ which will be used for image extraction and packaging on linux as well as `cabextract`. On an arch based system: `sudo pacman -S wimlib cabextract`. You also need about 1.4 GB of disk space (207 MB wim is extracted to about 1200 MB in a temporary directory).
 
-# Running it (prepare the files to copy to ESP)
+## Running it (prepare the files to copy to ESP)
 ```
 git clone https://github.com/teou1/lifeboat_win.git
 cd lifeboat_win
@@ -17,7 +17,7 @@ chmod +x *.sh
 ```
 The resulting files, after downloading an original 200 MB WinRE, unpacking, modifying and repacking it will be in the disk_layout folder, ready to be copied manually to the ESP (usually /boot/efi).
 
-Below are some screenshots:
+## Screenshots after booting:
 
 <img width="1230" height="783" alt="kbd" src="https://github.com/user-attachments/assets/aa3753bb-658e-485c-ac8c-fa0e3e78a45f" />
 ---
