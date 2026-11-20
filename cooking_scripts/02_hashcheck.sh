@@ -21,7 +21,7 @@ sha256sum ./working_dir/boot_original.wim
 echo "3c7d76e672a42213b855c1f74aa6f28cdc70c219fd2e6de2ccab8eeaaeb21cfc is the expected hash"
 echo ""
 echo ""
-echo "Pausing for 15 seconds so you can read this...please inspect the 3 hashes above..."
+echo "Pausing for 20 seconds so you can read this...please inspect the 3 hashes above..."
 echo "Note this check was purely informational - maybe you decided to download the files from somewhere else?"
 echo "That is why the script will continue even with a difference in checksums, it is up to you to decide if a difference in hashes is important..."
 echo "Press any key to continue now without waiting."
