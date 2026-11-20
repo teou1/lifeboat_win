@@ -13,7 +13,7 @@ cd lifeboat_win
 cd cooking_scripts
 chmod +x *.sh
 cd ..
-./run_it_all_automatically.sh
+./cooking_scripts/run_it_all_automatically.sh
 
 ```
 The resulting files, after downloading an original 200 MB WinRE, unpacking, modifying and repacking it will be in the disk_layout folder, ready to be copied manually to the ESP (usually /boot/efi).
