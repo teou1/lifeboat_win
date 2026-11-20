@@ -12,13 +12,13 @@ echo ""
 echo "==========================================================="
 echo ""
 sha256sum ./disk_layout/Boot/boot.sdi
-echo "Expected sum is cd2c00ce027687ce4a8bdc967f26a8ab82f651c9becd703658ba282ec49702bd"
+echo "cd2c00ce027687ce4a8bdc967f26a8ab82f651c9becd703658ba282ec49702bd is the expected hash"
 echo ""
 sha256sum ./disk_layout/EFI/Microsoft/Boot/BCD
-echo "Expected sum is b873ee995bfa1c201b1b5b40af592ba9d3675758a8dffd06ff5019e5e630de42"
+echo "b873ee995bfa1c201b1b5b40af592ba9d3675758a8dffd06ff5019e5e630de42 is the expected hash"
 echo ""
 sha256sum ./working_dir/boot_original.wim
-echo "Expected sum is 3c7d76e672a42213b855c1f74aa6f28cdc70c219fd2e6de2ccab8eeaaeb21cfc"
+echo "3c7d76e672a42213b855c1f74aa6f28cdc70c219fd2e6de2ccab8eeaaeb21cfc is the expected hash"
 echo ""
 echo ""
 echo "Pausing for 15 seconds so you can read this...please inspect the 3 hashes above..."
