@@ -12,6 +12,7 @@ git clone https://github.com/teou1/lifeboat_win.git
 cd lifeboat_win
 cd cooking_scripts
 chmod +x *.sh
+cd ..
 ./run_it_all_automatically.sh
 
 ```
