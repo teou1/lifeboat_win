@@ -15,7 +15,7 @@ sha256sum ./disk_layout/Boot/boot.sdi
 echo "Expected sum is cd2c00ce027687ce4a8bdc967f26a8ab82f651c9becd703658ba282ec49702bd"
 echo ""
 sha256sum ./disk_layout/EFI/Microsoft/Boot/BCD
-echo "Expected sum is 5a51341dc1098cd2e8df7ca45c269135301aa8b653f1187ccb7ef39b1b7a3a5a"
+echo "Expected sum is b873ee995bfa1c201b1b5b40af592ba9d3675758a8dffd06ff5019e5e630de42"
 echo ""
 sha256sum ./working_dir/boot_original.wim
 echo "Expected sum is 3c7d76e672a42213b855c1f74aa6f28cdc70c219fd2e6de2ccab8eeaaeb21cfc"
