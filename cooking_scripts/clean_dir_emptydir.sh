@@ -2,7 +2,7 @@
 set -e
 
 countdown() {
-   for i in {20..0}; do
+   for i in {5..0}; do
      echo -n "${i}.. "
      read -N1 -t1 && break
    done
