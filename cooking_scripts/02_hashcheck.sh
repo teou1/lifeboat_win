@@ -15,7 +15,8 @@ sha256sum ./disk_layout/Boot/boot.sdi
 echo "cd2c00ce027687ce4a8bdc967f26a8ab82f651c9becd703658ba282ec49702bd is the expected hash"
 echo ""
 sha256sum ./disk_layout/EFI/Microsoft/Boot/BCD
-echo "b873ee995bfa1c201b1b5b40af592ba9d3675758a8dffd06ff5019e5e630de42 is the expected hash"
+# echo "5a51341dc1098cd2e8df7ca45c269135301aa8b653f1187ccb7ef39b1b7a3a5a is the expected hash"
+echo "4769fec7c880b51fda601cd45a469197829bf2433ac19eb7bcd277de4c3908b3 is the expected hash"
 echo ""
 sha256sum ./working_dir/boot_original.wim
 echo "3c7d76e672a42213b855c1f74aa6f28cdc70c219fd2e6de2ccab8eeaaeb21cfc is the expected hash"
