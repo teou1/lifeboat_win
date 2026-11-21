@@ -7,7 +7,7 @@ mv boot.sdi ./disk_layout/Boot
 echo ""
 echo "Downloading BCD and placing it in the disk_layout..."
 echo ""
-wget -O BCD https://archive.org/download/windows-10-build-10240-32-and-64-bit/10240.16384.150709-1700.TH1_CLIENTENTERPRISEEVAL_OEMRET_X64FRE_EN-US.ISO/boot%2Fbcd
+wget -O BCD https://archive.org/download/windows-10-1507-home-and-pro/Win10_EnglishInternational_x64.iso/efi%2Fmicrosoft%2Fboot%2Fbcd
 mv BCD ./disk_layout/EFI/Microsoft/Boot
 echo ""
 echo "Downloading the boot.wim as cab, extracting it and moving it to the disk_layout..."
